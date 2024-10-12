@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(22, 93, 155);
+    color: #fff;
+  }
+
+  /* Hint: What can you do with a media query and flexbox? */
+  @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+    .pricing-plan {
+      width: 50%;
+      align-self: center;
+    }
+  }
+
+  img {
+    max-width: 100px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 0;
+    margin-top: 20px;
+    color: rgb(255, 213, 0);
+  }
+  p {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 20px;
+  }
+  .basic {
+    background-color: rgba(157, 31, 176, 0.716);
+  }
+  .standard {
+    background-color: rgba(36, 172, 36, 0.726);
+  }
+  .premium {
+    background-color: rgba(48, 116, 180, 0.855);
+  }
+  .plan-titlebg1 {
+    background-color: rgba(233, 87, 255, 0.546);
+    border-radius: 18px 18px 0 0;
+  }
+  .plan-titlebg2 {
+    background-color: rgba(15, 191, 15, 0.598);
+    border-radius: 18px 18px 0 0;
+  }
+  .plan-titlebg3 {
+    background-color: rgba(51, 151, 244, 0.56);
+    border-radius: 18px 18px 0 0;
+  }
+  .pricing-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .pricing-plan {
+    flex-basis: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 30px 80px #ffffff22;
+    border: 2px solid goldenrod;
+  }
+  .plan-title {
+    font-size: 1.5rem;
+    font-family: "Assistant", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  .plan-price {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  .plan-features {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-family: "Assistant", sans-serif;
+    font-weight: normal;
+    text-align: center;
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  li {
+    padding-bottom: 20px;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.871);
+    border-style: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: #333;
+    font-family: "Assistant", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 60%;
+    height: 50px;
+    box-shadow: 2px 2px 8px #ffffff24;
+  }
+  button:hover {
+    background-color: gold;
+    color: #000;
+    font-size: 1.3rem;
+  }
+  button:active {
+    background-color: #fff;
+  }
